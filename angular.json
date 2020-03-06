@@ -291,26 +291,26 @@
         }
       }
     },
-    "shared-feature-shell-library": {
+    "shared-feature-shell": {
       "projectType": "library",
-      "root": "libs/shared/feature-shell-library",
-      "sourceRoot": "libs/shared/feature-shell-library/src",
+      "root": "libs/shared/feature-shell",
+      "sourceRoot": "libs/shared/feature-shell/src",
       "prefix": "monorepo",
       "architect": {
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "libs/shared/feature-shell-library/src/test.ts",
-            "tsConfig": "libs/shared/feature-shell-library/tsconfig.spec.json",
-            "karmaConfig": "libs/shared/feature-shell-library/karma.conf.js"
+            "main": "libs/shared/feature-shell/src/test.ts",
+            "tsConfig": "libs/shared/feature-shell/tsconfig.spec.json",
+            "karmaConfig": "libs/shared/feature-shell/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "libs/shared/feature-shell-library/tsconfig.lib.json",
-              "libs/shared/feature-shell-library/tsconfig.spec.json"
+              "libs/shared/feature-shell/tsconfig.lib.json",
+              "libs/shared/feature-shell/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"

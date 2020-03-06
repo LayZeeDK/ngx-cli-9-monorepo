@@ -27,8 +27,8 @@
       "@monorepo/shared/data-access": [
         "libs/shared/data-access/src/index.ts"
       ],
-      "@monorepo/shared/feature-shell-library": [
-        "libs/shared/feature-shell-library/src/index.ts"
+      "@monorepo/shared/feature-shell": [
+        "libs/shared/feature-shell/src/index.ts"
       ],
       "@monorepo/shared/feature-search": [
         "libs/shared/feature-search/src/index.ts"

@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import {
-  SharedFeatureShellLibraryModule,
-} from '@monorepo/shared/feature-shell-library';
+  SharedFeatureShellModule,
+} from '@monorepo/shared/feature-shell';
 
 import { AppComponent } from './app.component';
 
@@ -11,7 +11,7 @@ import { AppComponent } from './app.component';
   declarations: [AppComponent],
   imports: [
     BrowserModule,
-    SharedFeatureShellLibraryModule,
+    SharedFeatureShellModule,
   ],
 })
 export class AppModule {}

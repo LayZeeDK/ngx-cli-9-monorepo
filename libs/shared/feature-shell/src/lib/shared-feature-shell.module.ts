@@ -17,4 +17,4 @@ const routes: Routes = [
     SharedDataAccessModule.forRoot(),
   ],
 })
-export class SharedFeatureShellLibraryModule {}
+export class SharedFeatureShellModule {}
