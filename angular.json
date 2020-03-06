@@ -31,8 +31,8 @@
             "production": {
               "fileReplacements": [
                 {
-                  "replace": "apps/app1/src/environments/environment.ts",
-                  "with": "apps/app1/src/environments/environment.prod.ts"
+                  "replace": "libs/shared/environment/src/lib/environment.ts",
+                  "with": "libs/shared/environment/src/lib/environment.prod.ts"
                 }
               ],
               "optimization": true,
@@ -105,8 +105,8 @@
             "production": {
               "fileReplacements": [
                 {
-                  "replace": "apps/app2/src/environments/environment.ts",
-                  "with": "apps/app2/src/environments/environment.prod.ts"
+                  "replace": "libs/shared/environment/src/lib/environment.ts",
+                  "with": "libs/shared/environment/src/lib/environment.prod.ts"
                 }
               ],
               "optimization": true,

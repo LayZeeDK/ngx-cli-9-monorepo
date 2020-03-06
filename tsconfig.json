@@ -22,7 +22,7 @@
     ],
     "paths": {
       "@monorepo/shared/environment": [
-        "libs/shared/environment/index.ts"
+        "libs/shared/environment/src/index.ts"
       ]
     }
   },

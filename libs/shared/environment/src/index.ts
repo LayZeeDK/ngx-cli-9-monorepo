@@ -1,7 +1,5 @@
 /*
- * Public API Surface of environment
+ * Public API Surface of shared-environment
  */
 
-export * from './lib/environment.service';
-export * from './lib/environment.component';
-export * from './lib/environment.module';
+export * from './lib/environment';
