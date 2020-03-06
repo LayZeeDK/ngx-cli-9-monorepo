@@ -1,16 +1,17 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import {
+  SharedFeatureShellLibraryModule,
+} from '@monorepo/shared/feature-shell-library';
 
 import { AppComponent } from './app.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  bootstrap: [AppComponent],
+  declarations: [AppComponent],
   imports: [
-    BrowserModule
+    BrowserModule,
+    SharedFeatureShellLibraryModule,
   ],
-  providers: [],
-  bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

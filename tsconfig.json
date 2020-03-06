@@ -24,10 +24,10 @@
       "@monorepo/shared/environment": [
         "libs/shared/environment/src/index.ts"
       ],
-      "data-access": [
+      "@monorepo/shared/data-access": [
         "libs/shared/data-access/src/index.ts"
       ],
-      "feature-shell-library": [
+      "@monorepo/shared/feature-shell-library": [
         "libs/shared/feature-shell-library/src/index.ts"
       ]
     }
