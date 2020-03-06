@@ -179,7 +179,7 @@
         }
       }
     },
-    "data-access": {
+    "shared-data-access": {
       "projectType": "library",
       "root": "libs/shared/data-access",
       "sourceRoot": "libs/shared/data-access/src",

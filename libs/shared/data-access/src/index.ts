@@ -1,7 +1,5 @@
 /*
- * Public API Surface of data-access
+ * Public API Surface of shared-data-access
  */
 
-export * from './lib/data-access.service';
-export * from './lib/data-access.component';
-export * from './lib/data-access.module';
+export * from './lib/shared-data-access.module';
