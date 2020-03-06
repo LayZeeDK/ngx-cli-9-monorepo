@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
-  "newProjectRoot": "apps",
+  "newProjectRoot": "libs/shared",
   "projects": {
     "app1": {
       "projectType": "application",
@@ -147,6 +147,34 @@
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
             "browserTarget": "app2:build"
+          }
+        }
+      }
+    },
+    "shared-environment": {
+      "projectType": "library",
+      "root": "libs/shared/environment",
+      "sourceRoot": "libs/shared/environment/src",
+      "prefix": "shared",
+      "architect": {
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "libs/shared/environment/src/test.ts",
+            "tsConfig": "libs/shared/environment/tsconfig.spec.json",
+            "karmaConfig": "libs/shared/environment/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/shared/environment/tsconfig.lib.json",
+              "libs/shared/environment/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
           }
         }
       }
