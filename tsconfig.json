@@ -26,6 +26,9 @@
       ],
       "data-access": [
         "libs/shared/data-access/src/index.ts"
+      ],
+      "feature-shell-library": [
+        "libs/shared/feature-shell-library/src/index.ts"
       ]
     }
   },
