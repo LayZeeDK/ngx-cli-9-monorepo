@@ -318,6 +318,34 @@
           }
         }
       }
+    },
+    "shared-feature-search": {
+      "projectType": "library",
+      "root": "libs/shared/feature-search",
+      "sourceRoot": "libs/shared/feature-search/src",
+      "prefix": "monorepo",
+      "architect": {
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "libs/shared/feature-search/src/test.ts",
+            "tsConfig": "libs/shared/feature-search/tsconfig.spec.json",
+            "karmaConfig": "libs/shared/feature-search/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/shared/feature-search/tsconfig.lib.json",
+              "libs/shared/feature-search/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "app1"
