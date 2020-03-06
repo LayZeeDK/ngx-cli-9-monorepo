@@ -12,8 +12,10 @@ sharing an environment library.
 6. Remove `environment:build` architect from `angular.json`.
 7. Set up path mapping in `/tsconfig.json`:
   ```
-  "@monorepo/shared/environment": [
-    "libs/shared/environment/src/index.ts"
+  "paths": [
+    "@monorepo/shared/environment": [
+      "libs/shared/environment/src/index.ts"
+    ]
   ]
   ```
 8. Delete `package.json`, `ng-packagr.json`, component, service, and Angular
