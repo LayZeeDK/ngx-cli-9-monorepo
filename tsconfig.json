@@ -23,6 +23,9 @@
     "paths": {
       "@monorepo/shared/environment": [
         "libs/shared/environment/src/index.ts"
+      ],
+      "data-access": [
+        "libs/shared/data-access/src/index.ts"
       ]
     }
   },
