@@ -1,4 +1,4 @@
-# Angular CLI version 9 monorepo
+# Nx-style monorepo using Angular CLI version 9
 
 Two apps with shared features, composed using a feature shell library. Also
 sharing an environment library.
